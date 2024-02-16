@@ -27,6 +27,7 @@ a h3 {
     color: transparent;
 }
 
+@media  (min-width: 992px) {
 .nav-item a p::after {
     content: "";
     display: block;
@@ -44,10 +45,11 @@ a h3 {
     width: 100%;
 }
 
-.nav-item a p:hover{
+.nav-item a p:hover {
     background: linear-gradient(90deg, rgba(150, 76, 137, 1) 43%, rgba(60, 150, 196, 1) 100%);
     background-clip: text;
     color: transparent;
+}
 }
 
 .btn-1 {
@@ -61,7 +63,7 @@ a h3 {
     transition: all 0.3s ease;
 }
 
-.btn-1:hover{
+.btn-1:hover {
     border: 1px solid rgb(168, 92, 154);
 }
 
@@ -118,7 +120,7 @@ a h3 {
 }
 
 .btn-2:hover {
-        border: 1px solid rgb(168, 92, 154);
+    border: 1px solid rgb(168, 92, 154);
 }
 
 .btn-2 img {
@@ -167,11 +169,12 @@ a h3 {
 }
 
 @keyframes astro {
-    from{
+    from {
         bottom: 0px;
         scale: 1;
     }
-    to{
+
+    to {
         bottom: -6vw;
         scale: 0.8;
     }
@@ -187,8 +190,8 @@ a h3 {
 }
 
 @keyframes rop {
-    to{
-       width: 18vw;
+    to {
+        width: 18vw;
     }
 }
 
@@ -232,11 +235,3 @@ a h3 {
     right: 15%;
     width: 2%;
 }
-
-
-
-
-
-
-
-
